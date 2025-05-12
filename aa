@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Date: Mon, 12 May 2025 11:49:32 GMT
+Cache-Control: no-cache
+X-AUTH-TOKEN: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtdXNhbmVkIiwic3ViIjoxMDUzNDMzMjk2LCJpYXQiOjE3NDcwNTA1NzIsImV4cCI6MTc0NzA1MTQ3MiwiaXNfcHJlbWl1bSI6ZmFsc2UsImFjdGluZ191c2VyIjoxMDUzNDMzMjk2LCJ0eXBlIjoidXNlciIsImp0aSI6IjZiMGYxZjE2YTQwZDUwMDk0N2NjYWQ3YzRlZGM0NGJkIn0.mihYgPV4NcsQaGVsrSCbm2XACkILoqYwBUtYXp1HW4A
+X-Frame-Options: DENY
+Access-Control-Allow-Origin: *
+Vary: Origin
+Access-Control-Expose-Headers: X-AUTH-TOKEN
+Set-Cookie: XSRF-TOKEN=eyJpdiI6InMzVDBlRHdZU2swQU9cL3JlQ29FdE9nPT0iLCJ2YWx1ZSI6ImU4d0tEbHdJZkh3bVl6TFZHeHJBbG1hdE1EaE9YVEVvUUJOVk9IYWhzZmNBWWZwMFwvSytyY0Q0QWJZZnhvQUJsQmY3cm1IWDBoZGV5c1JoS0ZiNG9kQT09IiwibWFjIjoiNzZjZmEyNjZhMmE5Mjg1N2NhMTBmZDJkMjU4YTFkODhiNTA0N2Q1M2UyMDFmZWNlZmQ5OTRmYzk2MTJlYjdkYSJ9; expires=Mon, 12-May-2025 13:49:32 GMT; Max-Age=7200; path=/; secure; HttpOnly
+Set-Cookie: MUSANED=eyJpdiI6Ik9SdkxpUklLWm11UWZjeGdxaEhYUmc9PSIsInZhbHVlIjoiQnNUR3NuWDB1M1QwOVd0aVdNSWxTUmZ0SmdBVEhKV3Ezd2t5aDlDRjV6Rmoxc1dXdUpjMWdJUjhWdTJvMWdwT1BYTGlmVXp5MTFmSkZkQ2wwZ08wVmc9PSIsIm1hYyI6IjNjM2IzYjVhYWQzYWMzZmM1ODViMzE5NTdiY2ZkZDBlMWE2ZTFlMzhjODIwMmNiZDc2YTY5Nzk4ZDE4MmViMTEifQ%3D%3D; expires=Mon, 12-May-2025 12:04:32 GMT; Max-Age=900; path=/; secure; HttpOnly
+X-Hostname: app01
+Keep-Alive: timeout=60, max=499
+Connection: Keep-Alive
+Content-Type: application/json
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Set-Cookie: TS012a68d6=01ea14f964657d7da25df2e98177ac5d61b030aed4227146b635d2ca62b23f8b1e08317ebaa1d2fcea1c29b208a9edf6e7b0d457c7c95f620ce7837982fbe017882e562fd8d167bca0b4300e4fdd4fb7635bef39c8; Path=/; 
+Content-Length: 63
+
+{"occupations_id":[],"credits":[],"unallowed_nationalities":[]}
